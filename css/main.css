@@ -1,7 +1,84 @@
 html, body{
-    background-color:gray;
+    background-color:#C7DCD4;
 }
 
-.mainBody{
-    background-color:gray;    
+.pageFormat{
+    background-color:#C7DCD4;   
+}
+.projectDiv{
+    padding-top:15px; 
+
+}
+
+.card{
+    -webkit-box-shadow: -5px 10px 12px -4px #5F9BA7;
+-moz-box-shadow: -5px 10px 12px -4px #5F9BA7;
+box-shadow: -5px 10px 12px -4px #5F9BA7;
+    border-radius: 15px;
+    margin: auto;       
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.youtubeUnDiv{
+    display: flex;
+    align-content: center;
+}
+.textdiv{
+    padding: 15px;
+    text-align: justify;
+}
+.textdiv h1{
+    font-size:xx-large;
+}
+.textdiv h2{
+    font-size: x-large;
+}
+.textdiv p{
+    margin-right: 60px;
+}
+.icotext{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-brands {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.bg-page {
+    background-color: #5F9BA7;
+}
+.fa-brands a{
+    text-decoration:wavy;
+    margin-left: 7px;
+    color: darkslategrey;
+    font-style: normal;
+}
+
+.textdiv img{
+    border-radius: 0px;
+    width: 38px;
+}
+
+.card img{
+    border-radius: 50px;
+    max-width: 100%;
+}
+.imgdiv{
+    max-width: 15%;
+    margin-right: 20px;
+
+}
+
+.iconlinks{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 93%;
 }

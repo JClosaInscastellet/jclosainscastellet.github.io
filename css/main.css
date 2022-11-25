@@ -1,84 +1,137 @@
-html, body{
-    background-color:#C7DCD4;
+html,
+body {
+    background-color: #C7DCD4;
 }
 
-.pageFormat{
-    background-color:#C7DCD4;   
+.pageFormat {
+    background-color: #C7DCD4;
 }
-.projectDiv{
-    padding-top:15px; 
+
+.projectDiv {
+    padding-top: 15px;
 
 }
 
-.card{
+.card {
     -webkit-box-shadow: -5px 10px 12px -4px #5F9BA7;
--moz-box-shadow: -5px 10px 12px -4px #5F9BA7;
-box-shadow: -5px 10px 12px -4px #5F9BA7;
+    -moz-box-shadow: -5px 10px 12px -4px #5F9BA7;
+    box-shadow: -5px 10px 12px -4px #5F9BA7;
     border-radius: 15px;
-    margin: auto;       
+    margin: auto;
     margin-bottom: 10px;
     width: 80%;
     display: flex;
     flex-direction: row;
 
 }
-.youtubeUnDiv{
+
+.youtubeUnDiv {
     display: flex;
     align-content: center;
 }
-.textdiv{
+
+.textdiv {
     padding: 15px;
     text-align: justify;
 }
-.textdiv h1{
-    font-size:xx-large;
+
+.textdiv h1 {
+    font-size: xx-large;
 }
-.textdiv h2{
+
+.textdiv h2 {
     font-size: x-large;
 }
-.textdiv p{
+
+.textdiv p {
     margin-right: 60px;
 }
-.icotext{
-    font-family:'Courier New', Courier, monospace;
+
+.icotext {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
-.fa-youtube{
+
+.fa-youtube {
     color: red;
 }
+
 .fa-brands {
     display: flex;
     align-items: center;
     font-size: 30px;
 }
+
 .bg-page {
     background-color: #5F9BA7;
 }
-.fa-brands a{
-    text-decoration:wavy;
+
+.fa-brands a {
+    text-decoration: wavy;
     margin-left: 7px;
     color: darkslategrey;
     font-style: normal;
 }
 
-.textdiv img{
+.textdiv img {
     border-radius: 0px;
     width: 38px;
 }
 
-.card img{
+.card img {
     border-radius: 50px;
     max-width: 100%;
 }
-.imgdiv{
+
+.imgdiv {
     max-width: 15%;
     margin-right: 20px;
 
 }
 
-.iconlinks{
+.iconlinks {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
     width: 93%;
+}
+.curriculumDiv {
+    display: flex;
+    height:90vh;
+}
+.curriculumDiv i {
+    left: 78%;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: xx-large;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    
+}
+
+.curriculumDiv a{
+    text-decoration: wavy;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #5F9BA7;
+    font-style:normal;
+    font-weight: bold;
+       
+}
+.fa-linkedin{
+    margin-top: 30px;
+    top: 20%;
+    left: 79%;
+}
+
+.curriculumDiv iframe {
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 10px 12px -4px #5F9BA7;
+    -moz-box-shadow: -5px 10px 12px -4px #5F9BA7;
+    box-shadow: -5px 10px 12px -4px #5F9BA7;
+    margin-top: 10px;
+    margin-left: 13%;
+    height: 95%;
 }

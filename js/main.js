@@ -2,7 +2,7 @@
 let projects = [];
 $(document).ready(function () {
     //Load projects
-    projects.push(new ProjectCard("Test project","Test","Interesting decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription decription in her e e e e e e e e e e e e e e e e e e e e e","Youtube/drive","https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png","github url"));
+    projects.push(new ProjectCard("Just Scannit","Project for M7","Semi functional website build with react,features some pages, with simulated register and login in localstorage","https://youtu.be/zsj_LKY01YA","sources\\jsi.png","https://github.com/JClosaInscastellet/JustScanIt"));
     //Add to dom
     projects.forEach(element => {
         $(".projectDiv").append(element.returnDom());

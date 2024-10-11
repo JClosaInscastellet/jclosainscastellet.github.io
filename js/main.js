@@ -3,6 +3,8 @@ let projects = [];
 $(document).ready(function () {
     //Load projects
     projects.push(new ProjectCard("Just Scannit","Project for M7","Semi functional website build with react,features some pages, with simulated register and login in localstorage","https://youtu.be/zsj_LKY01YA","sources\\jsi.png","https://github.com/JClosaInscastellet/JustScanIt"));
+    projects.push(new ProjectCard("RemADHDers","Telegram Bot","Speech to text bot that acts as a pseudo-calendar","https://drive.google.com/file/d/1B59UVKbxcFPxTbunlSsefPWbggq87KRf/view?usp=sharing","sources\\tllogo.png","https://github.com/ProfessionalJudit/Telegram_Bot"));
+
     //Add to dom
     projects.forEach(element => {
         $(".projectDiv").append(element.returnDom());
